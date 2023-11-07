@@ -1,7 +1,7 @@
 variable "db_password" {
   description = "Password for Redshift master DB user"
   type        = string
-  default     = "Database9000"
+  default     = "YourPassword"
 }
 
 variable "s3_bucket" {
@@ -13,5 +13,5 @@ variable "s3_bucket" {
 variable "aws_region" {
   description = "Region for AWS"
   type        = string
-  default     = "us-east-1"
+  default     = "Chooseyourregion"
 }

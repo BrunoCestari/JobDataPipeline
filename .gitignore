@@ -4,9 +4,7 @@ raw_data/
 __pycache__/
 notes.txt
 .ipynb_checkpoints/
-.env
-configuration.conf
-airflow/docker-compose.yaml
+.
 backup/
 
 

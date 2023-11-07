@@ -20,7 +20,7 @@ output_name = datetime.now().strftime("%Y%m%d")
 
 #Mapping the webscrape-container csv file to host machine (that is mapped to /opt/airflow/extraction)
 code_dir = Mount(target='/tmp/raw_data',
-                     source='/home/bccestari/Desktop/repos/JobDataPipeline/airflow/tmp',
+                     source='Absolute path to tmp folder',
                      type='bind')
 
 default_args = {
