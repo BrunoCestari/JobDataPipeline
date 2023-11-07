@@ -38,7 +38,7 @@ The collected information includes:
   - Years of Experience
   - URL (link to the online job posting on Google's website ) 
 
-The framework for this project is heavily based on [ABZ-Aaron's Reddit-API-Pipeline](https://github.com/ABZ-Aaron/Reddit-API-Pipeline) repository. I'm grateful for his work and it was the best resource I came across to start interacting with data engineering tools." 
+The framework for this project is heavily based on [ABZ-Aaron's Reddit-API-Pipeline](https://github.com/ABZ-Aaron/Reddit-API-Pipeline) repository. I'm grateful for his work and it was the best resource I came across to start interacting with data engineering tools.
 
 ## Architeture
 <img src = "https://github.com/bccestari/JobDataPipeline/blob/main/images/Diagram.png" width = 75% height = 75%>
@@ -126,7 +126,7 @@ Pre-requisites:
 
 These commands will build airflow's image and deploy it's containers using the docker-compose.yaml file. It will  mount the approriate volumes on host machine to communicate with the containers.The pipeline works with 2 more containers in addition to airflow's container:
 
-- Webscrape Selenium Standalone Container: A container deployed to run in "sleep mode". The container waits a command triggered by Airflow's dag to trigger the webscrape bot inside it. The container is killed when the webscrape finishes it's task. 
+- Webscrape Selenium Standalone Container: Deployed to run in "sleep mode". The container waits a command triggered by Airflow's dag to trigger the webscrape bot inside it. The container is killed when the webscrape finishes it's task. 
 
 
 - Docker-Proxy: This service is used to proxy communication with the Docker daemon to allow external systems to interact with it over a network connection (webscrape container). It's particularly relevant in scenarios where you need to communicate with Docker from a remote client or when using tools that expect Docker to be accessible over a network connection. 
