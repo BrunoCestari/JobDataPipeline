@@ -107,7 +107,7 @@ Pre-requisites:
 
   ```
 
-4. Go to webscrape directory and built it's image:
+5. Go to webscrape directory and built it's image:
 
   ```bash
   cd JobDataPipeline/webscrape
@@ -115,7 +115,7 @@ Pre-requisites:
 
   ```
 
-5. Start airflow in docker:
+6. Start airflow in docker:
 
   ```bash
   cd JobDataPipeline/airflow
@@ -132,9 +132,9 @@ These commands will build airflow's image and deploy it's containers using the d
 - Docker-Proxy: This service is used to proxy communication with the Docker daemon to allow external systems to interact with it over a network connection (webscrape container). It's particularly relevant in scenarios where you need to communicate with Docker from a remote client or when using tools that expect Docker to be accessible over a network connection. 
 
 
-6. Configure connection between Snowfalke Warehousing and s3 Bucket. The s3 bucket used in this project have temporary permissions. So is necessary create policy in AWS IAM. The video follow video is a tutorial of how configure Snowflake connection with S3: [Load Data from Amazon AWS S3 Bucket to Snowflake Data Warehouse](https://www.youtube.com/watch?v=woFc8Om1-kY).
+7. Configure connection between Snowfalke Warehousing and s3 Bucket. The s3 bucket used in this project have temporary permissions. So is necessary create policy in AWS IAM. The video follow video is a tutorial of how configure Snowflake connection with S3: [Load Data from Amazon AWS S3 Bucket to Snowflake Data Warehouse](https://www.youtube.com/watch?v=woFc8Om1-kY).
 
-7. [Connect to Snowflake in Power BI Desktop](https://www.youtube.com/watch?v=RDU0JU409Uw)
+8. [Connect to Snowflake in Power BI Desktop](https://www.youtube.com/watch?v=RDU0JU409Uw)
 
 
 ## Observations
