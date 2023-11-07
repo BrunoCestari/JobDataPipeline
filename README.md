@@ -150,6 +150,7 @@ You  can test the webscraper bot  without setting the pipeline. For this:
     #Exclude display line if need run with Chrome Graphical Inteface
     display = Display(visible=0, size=(1024, 768))
     display.start()
+
   ```
 
 - You can edit webscrape.py initialization function to scrape job's roles you want:
@@ -164,6 +165,7 @@ You  can test the webscraper bot  without setting the pipeline. For this:
             "Data Analyst",
             "Data Scientist"
         ]
+        
 ```
 - It retrieves 10 jobs listings per role name.
 
