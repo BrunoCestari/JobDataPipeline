@@ -1,0 +1,6 @@
+selenium
+boto3
+requests
+webdriver_manager
+requests
+pyvirtualdisplay==2.1

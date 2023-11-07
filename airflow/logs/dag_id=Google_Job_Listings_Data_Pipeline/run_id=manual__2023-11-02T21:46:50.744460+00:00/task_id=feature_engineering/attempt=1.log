@@ -1,0 +1,16 @@
+[2023-11-02T21:47:38.333+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Google_Job_Listings_Data_Pipeline.feature_engineering manual__2023-11-02T21:46:50.744460+00:00 [queued]>
+[2023-11-02T21:47:38.345+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Google_Job_Listings_Data_Pipeline.feature_engineering manual__2023-11-02T21:46:50.744460+00:00 [queued]>
+[2023-11-02T21:47:38.346+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2023-11-02T21:47:38.367+0000] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): feature_engineering> on 2023-11-02 21:46:50.744460+00:00
+[2023-11-02T21:47:38.386+0000] {standard_task_runner.py:57} INFO - Started process 1497 to run task
+[2023-11-02T21:47:38.395+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Google_Job_Listings_Data_Pipeline', 'feature_engineering', 'manual__2023-11-02T21:46:50.744460+00:00', '--job-id', '80', '--raw', '--subdir', 'DAGS_FOLDER/extract_job_data_dag.py', '--cfg-path', '/tmp/tmpanfgzq_8']
+[2023-11-02T21:47:38.397+0000] {standard_task_runner.py:85} INFO - Job 80: Subtask feature_engineering
+[2023-11-02T21:47:38.472+0000] {task_command.py:410} INFO - Running <TaskInstance: Google_Job_Listings_Data_Pipeline.feature_engineering manual__2023-11-02T21:46:50.744460+00:00 [running]> on host 1f525f761703
+[2023-11-02T21:47:38.576+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Google_Job_Listings_Data_Pipeline' AIRFLOW_CTX_TASK_ID='feature_engineering' AIRFLOW_CTX_EXECUTION_DATE='2023-11-02T21:46:50.744460+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-02T21:46:50.744460+00:00'
+[2023-11-02T21:47:38.578+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-11-02T21:47:38.579+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'python3 /opt/***/extraction/feature_engineering.py 20231102']
+[2023-11-02T21:47:38.596+0000] {subprocess.py:86} INFO - Output:
+[2023-11-02T21:48:29.324+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-11-02T21:48:29.376+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=Google_Job_Listings_Data_Pipeline, task_id=feature_engineering, execution_date=20231102T214650, start_date=20231102T214738, end_date=20231102T214829
+[2023-11-02T21:48:29.457+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-11-02T21:48:29.504+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

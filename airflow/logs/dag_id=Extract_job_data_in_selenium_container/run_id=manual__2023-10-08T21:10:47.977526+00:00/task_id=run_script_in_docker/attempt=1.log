@@ -1,0 +1,243 @@
+[2023-10-08T21:10:49.402+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Extract_job_data_in_selenium_container.run_script_in_docker manual__2023-10-08T21:10:47.977526+00:00 [queued]>
+[2023-10-08T21:10:49.420+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Extract_job_data_in_selenium_container.run_script_in_docker manual__2023-10-08T21:10:47.977526+00:00 [queued]>
+[2023-10-08T21:10:49.421+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2023-10-08T21:10:49.445+0000] {taskinstance.py:1327} INFO - Executing <Task(DockerOperator): run_script_in_docker> on 2023-10-08 21:10:47.977526+00:00
+[2023-10-08T21:10:49.460+0000] {standard_task_runner.py:57} INFO - Started process 252 to run task
+[2023-10-08T21:10:49.465+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Extract_job_data_in_selenium_container', 'run_script_in_docker', 'manual__2023-10-08T21:10:47.977526+00:00', '--job-id', '504', '--raw', '--subdir', 'DAGS_FOLDER/extract_job_data_dag.py', '--cfg-path', '/tmp/tmpd0tm67ld']
+[2023-10-08T21:10:49.467+0000] {standard_task_runner.py:85} INFO - Job 504: Subtask run_script_in_docker
+[2023-10-08T21:10:49.535+0000] {task_command.py:410} INFO - Running <TaskInstance: Extract_job_data_in_selenium_container.run_script_in_docker manual__2023-10-08T21:10:47.977526+00:00 [running]> on host cae9180efd34
+[2023-10-08T21:10:49.647+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Extract_job_data_in_selenium_container' AIRFLOW_CTX_TASK_ID='run_script_in_docker' AIRFLOW_CTX_EXECUTION_DATE='2023-10-08T21:10:47.977526+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-08T21:10:47.977526+00:00'
+[2023-10-08T21:10:49.673+0000] {docker.py:334} INFO - Starting docker container from image ***-webscrape-container
+[2023-10-08T21:10:49.693+0000] {docker.py:343} WARNING - Using remote engine or docker-in-docker and mounting temporary volume from host is not supported. Falling back to `mount_tmp_dir=False` mode. You can set `mount_tmp_dir` parameter to False to disable mounting and remove the warning
+[2023-10-08T21:10:50.582+0000] {docker.py:403} INFO - [13:52:1008/211050.581037:ERROR:bus.cc(406)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[2023-10-08T21:10:50.762+0000] {docker.py:403} INFO - [13:63:1008/211050.761119:ERROR:bus.cc(406)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[2023-10-08T21:10:50.762+0000] {docker.py:403} INFO - [13:63:1008/211050.761187:ERROR:bus.cc(406)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[2023-10-08T21:10:50.766+0000] {docker.py:403} INFO - [13:52:1008/211050.765344:ERROR:bus.cc(406)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[2023-10-08T21:10:50.767+0000] {docker.py:403} INFO - [13:52:1008/211050.765737:ERROR:bus.cc(406)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[2023-10-08T21:10:50.768+0000] {docker.py:403} INFO - [13:52:1008/211050.766099:ERROR:bus.cc(406)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[2023-10-08T21:10:50.768+0000] {docker.py:403} INFO - [13:52:1008/211050.766223:ERROR:bus.cc(406)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[2023-10-08T21:10:50.816+0000] {docker.py:403} INFO - [13:52:1008/211050.813738:ERROR:bus.cc(406)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[13:52:1008/211050.813791:ERROR:bus.cc(406)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[2023-10-08T21:10:50.920+0000] {docker.py:403} INFO - DevTools listening on ws://127.0.0.1:4444/devtools/browser/2867a1a7-b9e2-431c-a5d1-83d4fb678d7f
+[2023-10-08T21:10:50.932+0000] {docker.py:403} INFO - [13:13:1008/211050.930706:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.portal.Settings.Read: object_path= /org/freedesktop/portal/desktop: unknown error type:
+[2023-10-08T21:10:51.001+0000] {docker.py:403} INFO - [13:102:1008/211051.000632:ERROR:bus.cc(406)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[2023-10-08T21:10:51.003+0000] {docker.py:403} INFO - [13:102:1008/211051.000746:ERROR:bus.cc(406)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[2023-10-08T21:10:51.003+0000] {docker.py:403} INFO - [13:102:1008/211051.000827:ERROR:bus.cc(406)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[2023-10-08T21:10:51.008+0000] {docker.py:403} INFO - [13:102:1008/211051.007608:ERROR:bus.cc(406)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[2023-10-08T21:10:51.009+0000] {docker.py:403} INFO - [13:102:1008/211051.007811:ERROR:bus.cc(406)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[2023-10-08T21:10:51.098+0000] {docker.py:403} INFO - [76:76:1008/211051.096739:ERROR:viz_main_impl.cc(196)] Exiting GPU process due to errors during initialization
+[2023-10-08T21:10:51.598+0000] {docker.py:403} INFO - [119:119:1008/211051.585673:ERROR:viz_main_impl.cc(196)] Exiting GPU process due to errors during initialization
+[2023-10-08T21:11:57.866+0000] {docker.py:403} INFO - initialising bot
+opening chrome (Linux)
+open chrome
+https://www.google.com/search?q=Machine+Learning+Engineer+jobs&ibp=htl;jobs#htivrt=jobs
+Number of listings: 20
+Job ID: Udyn05-yCag1egjQAAAAAA==
+Company: C6 Bank
+Remoto São Paulo, SP
+Saving Machine Learning Engineer job
+Job ID: 1Fk8rkO9TZd7zz5uAAAAAA==
+Company: Porto
+Remoto São Paulo, SP
+Saving Machine Learning Engineer job
+Job ID: KWIKHrtSSCsbdhZnAAAAAA==
+Company: Thomson Reuters
+Remoto São Paulo, SP
+Saving Machine Learning Engineer job
+Job ID: 9yjlltPbHY2RjmF5AAAAAA==
+Company: Netvagas
+Remoto Qualquer lugar
+Saving Machine Learning Engineer job
+Job ID: 6oOQqIzGmHI0AMn_AAAAAA==
+Company: Qintess
+Remoto São Paulo, SP
+Saving Machine Learning Engineer job
+Job ID: 6bulMKezwV_FMrhpAAAAAA==
+Company: Rad Hires
+Remoto São Paulo, SP
+Saving Machine Learning Engineer job
+Job ID: bFUKdrL6K2onDRaGAAAAAA==
+Company: QuintoAndar
+Remoto São Paulo, SP
+Saving Machine Learning Engineer job
+Job ID: Atbke5QYTtweMnCeAAAAAA==
+Company: Fusemachines
+Remoto Qualquer lugar
+Saving Machine Learning Engineer job
+Job ID: iT-vSAjm7XfF_LnCAAAAAA==
+Company: cxcglobal
+Remoto São Paulo, SP
+Saving Machine Learning Engineer job
+Job ID: 3lcbT_KQjTkMM-tPAAAAAA==
+Company: Experian
+Remoto São Paulo, SP
+Saving Machine Learning Engineer job
+Job ID: fzAjegEPVU0JfSIIAAAAAA==
+Company: FullStack Labs
+Remoto São Paulo, SP
+Saving Machine Learning Engineer job
+Job ID: x-9rT0XekeeHY-PbAAAAAA==
+Company: Loft
+Remoto São Paulo, SP
+Saving Machine Learning Engineer job
+Job ID: Vej123eYZWmGAEK3AAAAAA==
+Company: Qintess
+Remoto Qualquer lugar
+Saving Machine Learning Engineer job
+Job ID: IZQhRC7BVd7KRFucAAAAAA==
+Company: FactSet
+Remoto São Paulo, SP
+Saving Machine Learning Engineer job
+Job ID: sh6-1yiergC4tBEGAAAAAA==
+Company: Rappi
+Remoto São Paulo, SP
+Saving Machine Learning Engineer job
+Job ID: QQD7FDII-j5-ZFrsAAAAAA==
+Company: Mars
+Remoto São Paulo, SP
+Saving Machine Learning Engineer job
+Job ID: pazR7gk2JTbIIQdUAAAAAA==
+Company: Amplemarket
+Remoto Qualquer lugar
+Saving Machine Learning Engineer job
+Job ID: 9hkM2PeQ9KHyHOt3AAAAAA==
+Company: Kodif
+Remoto São Paulo, SP
+Saving Machine Learning Engineer job
+Job ID: YlT7aknAnb2b3KJ5AAAAAA==
+Company: Turing
+Remoto São Paulo, SP
+Saving Machine Learning Engineer job
+Job ID: vDVqYy92XCzoifJXAAAAAA==
+Company: Insight IT
+Remoto São Paulo, SP
+Saving Machine Learning Engineer job
+https://www.google.com/search?q=Data+Engineer+jobs&ibp=htl;jobs#htivrt=jobs
+Number of listings: 10
+Job ID: JiDNF9EE-ATxSD4wAAAAAA==
+Company: uCloud Brasil
+Remoto São Paulo, SP
+Saving Data Engineer job
+Job ID: CCclXf6ZcugdaC8rAAAAAA==
+Company: BANCO POTTENCIAL
+Remoto São Paulo, SP
+Saving Data Engineer job
+Job ID: LlSqqG4zhXRa3AvQAAAAAA==
+Company: XP Inc.
+Remoto São Paulo, SP
+Saving Data Engineer job
+Job ID: TpPq9uIoo2g6o0KCAAAAAA==
+Company: Possible
+Remoto Qualquer lugar
+Saving Data Engineer job
+Job ID: 5pxTH4_aLy9hRob4AAAAAA==
+Company: Element Technologies
+Remoto São Paulo, SP
+Saving Data Engineer job
+Job ID: RBWbGsxOyF_2NYVZAAAAAA==
+Company: Coodesh
+Remoto São Paulo, SP
+Saving Data Engineer job
+Job ID: 3ViRF_VJRyXU-LR6AAAAAA==
+Company: PROCURANDO EMPREGO
+Remoto São Paulo, SP
+Saving Data Engineer job
+Job ID: Q0DHvl9sMixC0a3xAAAAAA==
+Company: Turing
+Remoto São Paulo, SP
+Saving Data Engineer job
+Job ID: Ld0BPNgXHfQEZuGYAAAAAA==
+Company: Rehva Tech
+Remoto São Paulo, SP
+Saving Data Engineer job
+Job ID: _6PB3RQs1kndXuktAAAAAA==
+Company: Symrise AG
+Remoto São Paulo, SP
+Saving Data Engineer job
+https://www.google.com/search?q=Data+Analyst+jobs&ibp=htl;jobs#htivrt=jobs
+Number of listings: 10
+Job ID: m69VbttkkKmpN8XoAAAAAA==
+Company: TalentKompass Deutschland
+Remoto Qualquer lugar
+Saving Data Analyst job
+Job ID: G1NmZgxoySnJkokwAAAAAA==
+Company: Turing
+Remoto São Paulo, SP
+Saving Data Analyst job
+Job ID: mRMYqPoQEfEuHLOXAAAAAA==
+Company: Keyrus Brasil
+Remoto São Paulo, SP
+Saving Data Analyst job
+Job ID: zzWie6DVFfa9Q4-vAAAAAA==
+Company: SEMANTIX
+Remoto São Paulo, SP
+Saving Data Analyst job
+Job ID: 00aI2pxSdBwzH6WaAAAAAA==
+Company: The Methodical Group
+Remoto São Paulo, SP
+Saving Data Analyst job
+Job ID: HnI20Z4SiduOjjMMAAAAAA==
+Company: Artefact
+Remoto Qualquer lugar
+Saving Data Analyst job
+Job ID: iG1QwfO2kytcKnqpAAAAAA==
+Company: EMPREGARA
+Remoto Santos, SP
+Saving Data Analyst job
+Job ID: kXSNWNFzAMSx6mnmAAAAAA==
+Company: Turing
+Remoto São Paulo, SP
+Saving Data Analyst job
+Job ID: fk4E7YBa7JfiZsJxAAAAAA==
+Company: Criteo
+Remoto São Paulo, SP
+Saving Data Analyst job
+Job ID: fqPWIcV73vqJjsjBAAAAAA==
+Company: Media.Monks
+Remoto São Paulo, SP
+Saving Data Analyst job
+https://www.google.com/search?q=Data+Scientist+jobs&ibp=htl;jobs#htivrt=jobs
+Number of listings: 10
+Job ID: St4JggB7R1UyvahHAAAAAA==
+Company: XP Inc.
+Remoto São Paulo, SP
+Saving Data Scientist job
+Job ID: cCTDHZoAtTYNfBL3AAAAAA==
+Company: EMPREGARA
+Remoto São Paulo, SP
+Saving Data Scientist job
+Job ID: mbL_dGlWAkN9r7DvAAAAAA==
+Company: XP Inc.
+Remoto Qualquer lugar
+Saving Data Scientist job
+Job ID: zSMB5VjPJ8lPFWmmAAAAAA==
+Company: Uber
+Remoto São Paulo, SP
+Saving Data Scientist job
+Job ID: uOeJSe9ACIaqPZHiAAAAAA==
+Company: Grupo Qualiconsig
+Remoto São Paulo, SP
+Saving Data Scientist job
+Job ID: 5pxTH4_aLy9hRob4AAAAAA==
+Company: Element Technologies
+Remoto São Paulo, SP
+Saving Data Scientist job
+Job ID: sc4d795mJ4t8rLGXAAAAAA==
+Company: Wyser
+Remoto São Paulo, SP
+Saving Data Scientist job
+Job ID: h-iWI1SREy6ufOBwAAAAAA==
+Company: EMPREGARA
+Remoto São Paulo, SP
+Saving Data Scientist job
+Job ID: azeLa-hAH_JnFplqAAAAAA==
+Company: K2 Partnering
+Remoto São Paulo, SP
+Saving Data Scientist job
+Job ID: 0P4uwFHJrFAwdmlBAAAAAA==
+Company: Risk Solutions
+Remoto São Paulo, SP
+Saving Data Scientist job
+[2023-10-08T21:11:58.341+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=Extract_job_data_in_selenium_container, task_id=run_script_in_docker, execution_date=20231008T211047, start_date=20231008T211049, end_date=20231008T211158
+[2023-10-08T21:11:58.445+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-10-08T21:11:58.492+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

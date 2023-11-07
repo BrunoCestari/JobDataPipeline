@@ -1,0 +1,25 @@
+[2023-09-30T18:31:14.610+0000] {processor.py:157} INFO - Started process (PID=276) to work on /opt/airflow/dags/extract_data.py
+[2023-09-30T18:31:14.612+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2023-09-30T18:31:14.613+0000] {logging_mixin.py:150} INFO - [2023-09-30T18:31:14.613+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2023-09-30T18:31:14.630+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_dag']) retrieved from /opt/airflow/dags/extract_data.py
+[2023-09-30T18:31:14.771+0000] {logging_mixin.py:150} INFO - [2023-09-30T18:31:14.771+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:web_scraping_dag
+[2023-09-30T18:31:14.786+0000] {logging_mixin.py:150} INFO - [2023-09-30T18:31:14.786+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:web_scraping_dag
+[2023-09-30T18:31:14.798+0000] {logging_mixin.py:150} INFO - [2023-09-30T18:31:14.798+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:web_scraping_dag
+[2023-09-30T18:31:14.820+0000] {logging_mixin.py:150} INFO - [2023-09-30T18:31:14.820+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-30T18:31:14.838+0000] {logging_mixin.py:150} INFO - [2023-09-30T18:31:14.838+0000] {dag.py:2763} INFO - Creating ORM DAG for web_scraping_dag
+[2023-09-30T18:31:14.851+0000] {logging_mixin.py:150} INFO - [2023-09-30T18:31:14.851+0000] {dag.py:3508} INFO - Setting next_dagrun for web_scraping_dag to None, run_after=None
+[2023-09-30T18:31:14.879+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_data.py took 0.275 seconds
+[2023-09-30T18:31:45.188+0000] {processor.py:157} INFO - Started process (PID=284) to work on /opt/airflow/dags/extract_data.py
+[2023-09-30T18:31:45.190+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2023-09-30T18:31:45.192+0000] {logging_mixin.py:150} INFO - [2023-09-30T18:31:45.191+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2023-09-30T18:31:45.216+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_dag']) retrieved from /opt/airflow/dags/extract_data.py
+[2023-09-30T18:31:45.272+0000] {logging_mixin.py:150} INFO - [2023-09-30T18:31:45.272+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-30T18:31:45.330+0000] {logging_mixin.py:150} INFO - [2023-09-30T18:31:45.330+0000] {dag.py:3508} INFO - Setting next_dagrun for web_scraping_dag to None, run_after=None
+[2023-09-30T18:31:45.377+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_data.py took 0.193 seconds
+[2023-09-30T18:32:15.532+0000] {processor.py:157} INFO - Started process (PID=292) to work on /opt/airflow/dags/extract_data.py
+[2023-09-30T18:32:15.539+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2023-09-30T18:32:15.541+0000] {logging_mixin.py:150} INFO - [2023-09-30T18:32:15.540+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2023-09-30T18:32:15.564+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_dag']) retrieved from /opt/airflow/dags/extract_data.py
+[2023-09-30T18:32:15.611+0000] {logging_mixin.py:150} INFO - [2023-09-30T18:32:15.611+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-30T18:32:15.643+0000] {logging_mixin.py:150} INFO - [2023-09-30T18:32:15.643+0000] {dag.py:3508} INFO - Setting next_dagrun for web_scraping_dag to None, run_after=None
+[2023-09-30T18:32:15.701+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_data.py took 0.176 seconds

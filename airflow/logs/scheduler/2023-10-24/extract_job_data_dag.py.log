@@ -1,0 +1,84 @@
+[2023-10-24T01:49:08.882+0000] {processor.py:157} INFO - Started process (PID=36) to work on /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:49:08.895+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/extract_job_data_dag.py for tasks to queue
+[2023-10-24T01:49:08.896+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:49:08.896+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:49:08.945+0000] {processor.py:836} INFO - DAG(s) dict_keys(['Extract_job_data_in_selenium_container']) retrieved from /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:49:09.233+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:49:09.233+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-24T01:49:09.284+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:49:09.283+0000] {dag.py:3508} INFO - Setting next_dagrun for Extract_job_data_in_selenium_container to None, run_after=None
+[2023-10-24T01:49:09.319+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_job_data_dag.py took 0.447 seconds
+[2023-10-24T01:49:39.518+0000] {processor.py:157} INFO - Started process (PID=44) to work on /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:49:39.521+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/extract_job_data_dag.py for tasks to queue
+[2023-10-24T01:49:39.523+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:49:39.523+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:49:39.559+0000] {processor.py:836} INFO - DAG(s) dict_keys(['Extract_job_data_in_selenium_container']) retrieved from /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:49:39.606+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:49:39.605+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-24T01:49:39.645+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:49:39.644+0000] {dag.py:3508} INFO - Setting next_dagrun for Extract_job_data_in_selenium_container to None, run_after=None
+[2023-10-24T01:49:39.672+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_job_data_dag.py took 0.160 seconds
+[2023-10-24T01:50:09.796+0000] {processor.py:157} INFO - Started process (PID=52) to work on /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:50:09.798+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/extract_job_data_dag.py for tasks to queue
+[2023-10-24T01:50:09.800+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:50:09.799+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:50:09.825+0000] {processor.py:836} INFO - DAG(s) dict_keys(['Extract_job_data_in_selenium_container']) retrieved from /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:50:09.858+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:50:09.857+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-24T01:50:09.888+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:50:09.888+0000] {dag.py:3508} INFO - Setting next_dagrun for Extract_job_data_in_selenium_container to None, run_after=None
+[2023-10-24T01:50:09.909+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_job_data_dag.py took 0.121 seconds
+[2023-10-24T01:50:40.210+0000] {processor.py:157} INFO - Started process (PID=60) to work on /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:50:40.212+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/extract_job_data_dag.py for tasks to queue
+[2023-10-24T01:50:40.214+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:50:40.213+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:50:40.261+0000] {processor.py:836} INFO - DAG(s) dict_keys(['Extract_job_data_in_selenium_container']) retrieved from /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:50:40.314+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:50:40.313+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-24T01:50:40.350+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:50:40.350+0000] {dag.py:3508} INFO - Setting next_dagrun for Extract_job_data_in_selenium_container to None, run_after=None
+[2023-10-24T01:50:40.375+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_job_data_dag.py took 0.175 seconds
+[2023-10-24T01:51:10.481+0000] {processor.py:157} INFO - Started process (PID=68) to work on /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:51:10.482+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/extract_job_data_dag.py for tasks to queue
+[2023-10-24T01:51:10.484+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:51:10.484+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:51:10.511+0000] {processor.py:836} INFO - DAG(s) dict_keys(['Extract_job_data_in_selenium_container']) retrieved from /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:51:10.543+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:51:10.542+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-24T01:51:10.571+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:51:10.571+0000] {dag.py:3508} INFO - Setting next_dagrun for Extract_job_data_in_selenium_container to None, run_after=None
+[2023-10-24T01:51:10.606+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_job_data_dag.py took 0.132 seconds
+[2023-10-24T01:51:40.726+0000] {processor.py:157} INFO - Started process (PID=77) to work on /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:51:40.727+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/extract_job_data_dag.py for tasks to queue
+[2023-10-24T01:51:40.728+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:51:40.727+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:51:40.745+0000] {processor.py:836} INFO - DAG(s) dict_keys(['Extract_job_data_in_selenium_container']) retrieved from /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:51:40.777+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:51:40.777+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-24T01:51:40.806+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:51:40.806+0000] {dag.py:3508} INFO - Setting next_dagrun for Extract_job_data_in_selenium_container to None, run_after=None
+[2023-10-24T01:51:40.828+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_job_data_dag.py took 0.107 seconds
+[2023-10-24T01:52:11.045+0000] {processor.py:157} INFO - Started process (PID=85) to work on /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:52:11.050+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/extract_job_data_dag.py for tasks to queue
+[2023-10-24T01:52:11.053+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:52:11.052+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:52:11.085+0000] {processor.py:836} INFO - DAG(s) dict_keys(['Extract_job_data_in_selenium_container']) retrieved from /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:52:11.122+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:52:11.122+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-24T01:52:11.149+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:52:11.149+0000] {dag.py:3508} INFO - Setting next_dagrun for Extract_job_data_in_selenium_container to None, run_after=None
+[2023-10-24T01:52:11.180+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_job_data_dag.py took 0.156 seconds
+[2023-10-24T01:52:41.390+0000] {processor.py:157} INFO - Started process (PID=93) to work on /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:52:41.394+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/extract_job_data_dag.py for tasks to queue
+[2023-10-24T01:52:41.397+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:52:41.396+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:52:41.428+0000] {processor.py:836} INFO - DAG(s) dict_keys(['Extract_job_data_in_selenium_container']) retrieved from /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:52:41.460+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:52:41.460+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-24T01:52:41.489+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:52:41.489+0000] {dag.py:3508} INFO - Setting next_dagrun for Extract_job_data_in_selenium_container to None, run_after=None
+[2023-10-24T01:52:41.522+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_job_data_dag.py took 0.143 seconds
+[2023-10-24T01:53:11.715+0000] {processor.py:157} INFO - Started process (PID=101) to work on /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:53:11.716+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/extract_job_data_dag.py for tasks to queue
+[2023-10-24T01:53:11.717+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:53:11.717+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:53:11.739+0000] {processor.py:836} INFO - DAG(s) dict_keys(['Extract_job_data_in_selenium_container']) retrieved from /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:53:11.772+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:53:11.772+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-24T01:53:11.801+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:53:11.801+0000] {dag.py:3508} INFO - Setting next_dagrun for Extract_job_data_in_selenium_container to None, run_after=None
+[2023-10-24T01:53:11.825+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_job_data_dag.py took 0.115 seconds
+[2023-10-24T01:53:42.129+0000] {processor.py:157} INFO - Started process (PID=109) to work on /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:53:42.131+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/extract_job_data_dag.py for tasks to queue
+[2023-10-24T01:53:42.133+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:53:42.133+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:53:42.155+0000] {processor.py:836} INFO - DAG(s) dict_keys(['Extract_job_data_in_selenium_container']) retrieved from /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:53:42.186+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:53:42.185+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-24T01:53:42.214+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:53:42.214+0000] {dag.py:3508} INFO - Setting next_dagrun for Extract_job_data_in_selenium_container to None, run_after=None
+[2023-10-24T01:53:42.262+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_job_data_dag.py took 0.140 seconds
+[2023-10-24T01:54:12.434+0000] {processor.py:157} INFO - Started process (PID=117) to work on /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:54:12.436+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/extract_job_data_dag.py for tasks to queue
+[2023-10-24T01:54:12.439+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:54:12.438+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:54:12.476+0000] {processor.py:836} INFO - DAG(s) dict_keys(['Extract_job_data_in_selenium_container']) retrieved from /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:54:12.586+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:54:12.585+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-24T01:54:12.678+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:54:12.677+0000] {dag.py:3508} INFO - Setting next_dagrun for Extract_job_data_in_selenium_container to None, run_after=None
+[2023-10-24T01:54:12.728+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_job_data_dag.py took 0.300 seconds
+[2023-10-24T01:54:42.858+0000] {processor.py:157} INFO - Started process (PID=126) to work on /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:54:42.860+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/extract_job_data_dag.py for tasks to queue
+[2023-10-24T01:54:42.863+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:54:42.862+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:54:42.887+0000] {processor.py:836} INFO - DAG(s) dict_keys(['Extract_job_data_in_selenium_container']) retrieved from /opt/airflow/dags/extract_job_data_dag.py
+[2023-10-24T01:54:42.926+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:54:42.925+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-24T01:54:42.958+0000] {logging_mixin.py:150} INFO - [2023-10-24T01:54:42.958+0000] {dag.py:3508} INFO - Setting next_dagrun for Extract_job_data_in_selenium_container to None, run_after=None
+[2023-10-24T01:54:42.998+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_job_data_dag.py took 0.146 seconds

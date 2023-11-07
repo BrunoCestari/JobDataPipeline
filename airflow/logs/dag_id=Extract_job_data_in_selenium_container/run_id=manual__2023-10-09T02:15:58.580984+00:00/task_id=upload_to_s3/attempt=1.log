@@ -1,0 +1,23 @@
+[2023-10-09T02:16:00.313+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Extract_job_data_in_selenium_container.upload_to_s3 manual__2023-10-09T02:15:58.580984+00:00 [queued]>
+[2023-10-09T02:16:00.340+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Extract_job_data_in_selenium_container.upload_to_s3 manual__2023-10-09T02:15:58.580984+00:00 [queued]>
+[2023-10-09T02:16:00.340+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2023-10-09T02:16:00.392+0000] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): upload_to_s3> on 2023-10-09 02:15:58.580984+00:00
+[2023-10-09T02:16:00.412+0000] {standard_task_runner.py:57} INFO - Started process 137 to run task
+[2023-10-09T02:16:00.428+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Extract_job_data_in_selenium_container', 'upload_to_s3', 'manual__2023-10-09T02:15:58.580984+00:00', '--job-id', '614', '--raw', '--subdir', 'DAGS_FOLDER/extract_job_data_dag.py', '--cfg-path', '/tmp/tmpfb0sdc_u']
+[2023-10-09T02:16:00.432+0000] {standard_task_runner.py:85} INFO - Job 614: Subtask upload_to_s3
+[2023-10-09T02:16:00.577+0000] {task_command.py:410} INFO - Running <TaskInstance: Extract_job_data_in_selenium_container.upload_to_s3 manual__2023-10-09T02:15:58.580984+00:00 [running]> on host e12c8be37a23
+[2023-10-09T02:16:00.784+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Extract_job_data_in_selenium_container' AIRFLOW_CTX_TASK_ID='upload_to_s3' AIRFLOW_CTX_EXECUTION_DATE='2023-10-09T02:15:58.580984+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-09T02:15:58.580984+00:00'
+[2023-10-09T02:16:00.786+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-10-09T02:16:00.791+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'python /opt/***/extraction/upload_aws_s3_etl.py 20231009']
+[2023-10-09T02:16:00.817+0000] {subprocess.py:86} INFO - Output:
+[2023-10-09T02:16:00.955+0000] {subprocess.py:93} INFO - python: can't open file '/opt/***/extraction/upload_aws_s3_etl.py': [Errno 2] No such file or directory
+[2023-10-09T02:16:00.960+0000] {subprocess.py:97} INFO - Command exited with return code 2
+[2023-10-09T02:16:00.978+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 211, in execute
+    f"Bash command failed. The command returned a non-zero exit code {result.exit_code}."
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2023-10-09T02:16:00.987+0000] {taskinstance.py:1350} INFO - Marking task as UP_FOR_RETRY. dag_id=Extract_job_data_in_selenium_container, task_id=upload_to_s3, execution_date=20231009T021558, start_date=20231009T021600, end_date=20231009T021600
+[2023-10-09T02:16:01.008+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 614 for task upload_to_s3 (Bash command failed. The command returned a non-zero exit code 2.; 137)
+[2023-10-09T02:16:01.040+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-10-09T02:16:01.225+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

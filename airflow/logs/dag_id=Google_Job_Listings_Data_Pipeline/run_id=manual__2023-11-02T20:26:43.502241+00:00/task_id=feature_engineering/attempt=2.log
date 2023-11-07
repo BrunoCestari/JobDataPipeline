@@ -1,0 +1,26 @@
+[2023-11-02T20:32:57.337+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Google_Job_Listings_Data_Pipeline.feature_engineering manual__2023-11-02T20:26:43.502241+00:00 [queued]>
+[2023-11-02T20:32:57.351+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Google_Job_Listings_Data_Pipeline.feature_engineering manual__2023-11-02T20:26:43.502241+00:00 [queued]>
+[2023-11-02T20:32:57.352+0000] {taskinstance.py:1308} INFO - Starting attempt 2 of 2
+[2023-11-02T20:32:57.402+0000] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): feature_engineering> on 2023-11-02 20:26:43.502241+00:00
+[2023-11-02T20:32:57.423+0000] {standard_task_runner.py:57} INFO - Started process 489 to run task
+[2023-11-02T20:32:57.438+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Google_Job_Listings_Data_Pipeline', 'feature_engineering', 'manual__2023-11-02T20:26:43.502241+00:00', '--job-id', '47', '--raw', '--subdir', 'DAGS_FOLDER/extract_job_data_dag.py', '--cfg-path', '/tmp/tmpxuemgt3a']
+[2023-11-02T20:32:57.441+0000] {standard_task_runner.py:85} INFO - Job 47: Subtask feature_engineering
+[2023-11-02T20:32:57.550+0000] {task_command.py:410} INFO - Running <TaskInstance: Google_Job_Listings_Data_Pipeline.feature_engineering manual__2023-11-02T20:26:43.502241+00:00 [running]> on host 8443c9c4112a
+[2023-11-02T20:32:57.682+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Google_Job_Listings_Data_Pipeline' AIRFLOW_CTX_TASK_ID='feature_engineering' AIRFLOW_CTX_EXECUTION_DATE='2023-11-02T20:26:43.502241+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-02T20:26:43.502241+00:00'
+[2023-11-02T20:32:57.684+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-11-02T20:32:57.685+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'python3 /opt/***/extraction/feature_engineering.py 20231102']
+[2023-11-02T20:32:57.702+0000] {subprocess.py:86} INFO - Output:
+[2023-11-02T20:32:58.569+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2023-11-02T20:32:58.569+0000] {subprocess.py:93} INFO -   File "/opt/***/extraction/feature_engineering.py", line 3, in <module>
+[2023-11-02T20:32:58.570+0000] {subprocess.py:93} INFO -     from geopy.geocoders import Nominatim
+[2023-11-02T20:32:58.571+0000] {subprocess.py:93} INFO - ModuleNotFoundError: No module named 'geopy'
+[2023-11-02T20:32:58.676+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2023-11-02T20:32:58.706+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 211, in execute
+    f"Bash command failed. The command returned a non-zero exit code {result.exit_code}."
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2023-11-02T20:32:58.717+0000] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=Google_Job_Listings_Data_Pipeline, task_id=feature_engineering, execution_date=20231102T202643, start_date=20231102T203257, end_date=20231102T203258
+[2023-11-02T20:32:58.751+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 47 for task feature_engineering (Bash command failed. The command returned a non-zero exit code 1.; 489)
+[2023-11-02T20:32:58.773+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-11-02T20:32:58.833+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

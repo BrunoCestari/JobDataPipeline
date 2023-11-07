@@ -1,0 +1,32 @@
+[2023-10-23T21:29:16.046+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Extract_job_data_in_selenium_container.run_script_in_docker manual__2023-10-23T21:17:47.994524+00:00 [queued]>
+[2023-10-23T21:29:16.058+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Extract_job_data_in_selenium_container.run_script_in_docker manual__2023-10-23T21:17:47.994524+00:00 [queued]>
+[2023-10-23T21:29:16.058+0000] {taskinstance.py:1308} INFO - Starting attempt 2 of 2
+[2023-10-23T21:29:16.077+0000] {taskinstance.py:1327} INFO - Executing <Task(DockerOperator): run_script_in_docker> on 2023-10-23 21:17:47.994524+00:00
+[2023-10-23T21:29:16.082+0000] {standard_task_runner.py:57} INFO - Started process 260 to run task
+[2023-10-23T21:29:16.086+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Extract_job_data_in_selenium_container', 'run_script_in_docker', 'manual__2023-10-23T21:17:47.994524+00:00', '--job-id', '856', '--raw', '--subdir', 'DAGS_FOLDER/extract_job_data_dag.py', '--cfg-path', '/tmp/tmp39w80v2m']
+[2023-10-23T21:29:16.088+0000] {standard_task_runner.py:85} INFO - Job 856: Subtask run_script_in_docker
+[2023-10-23T21:29:16.147+0000] {task_command.py:410} INFO - Running <TaskInstance: Extract_job_data_in_selenium_container.run_script_in_docker manual__2023-10-23T21:17:47.994524+00:00 [running]> on host 4be7b32a0cc0
+[2023-10-23T21:29:16.241+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Extract_job_data_in_selenium_container' AIRFLOW_CTX_TASK_ID='run_script_in_docker' AIRFLOW_CTX_EXECUTION_DATE='2023-10-23T21:17:47.994524+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-23T21:17:47.994524+00:00'
+[2023-10-23T21:29:16.274+0000] {docker.py:334} INFO - Starting docker container from image webscrape-container
+[2023-10-23T21:29:16.308+0000] {docker.py:343} WARNING - Using remote engine or docker-in-docker and mounting temporary volume from host is not supported. Falling back to `mount_tmp_dir=False` mode. You can set `mount_tmp_dir` parameter to False to disable mounting and remove the warning
+[2023-10-23T21:29:17.858+0000] {docker.py:403} INFO - [13:60:1023/212917.857566:ERROR:bus.cc(406)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[2023-10-23T21:29:18.404+0000] {docker.py:403} INFO - [13:63:1023/212918.403328:ERROR:bus.cc(406)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[13:63:1023/212918.403385:ERROR:bus.cc(406)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[2023-10-23T21:29:18.420+0000] {docker.py:403} INFO - [13:60:1023/212918.419267:ERROR:bus.cc(406)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[13:60:1023/212918.419398:ERROR:bus.cc(406)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[13:60:1023/212918.419421:ERROR:bus.cc(406)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[13:60:1023/212918.419435:ERROR:bus.cc(406)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[2023-10-23T21:29:18.476+0000] {docker.py:403} INFO - [13:60:1023/212918.468990:ERROR:bus.cc(406)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[13:60:1023/212918.469034:ERROR:bus.cc(406)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[2023-10-23T21:29:18.592+0000] {docker.py:403} INFO - DevTools listening on ws://127.0.0.1:4444/devtools/browser/5e4ec258-b01b-4c2c-a621-bfa9b6e616f9
+[2023-10-23T21:29:18.651+0000] {docker.py:403} INFO - [13:13:1023/212918.649638:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.portal.Settings.Read: object_path= /org/freedesktop/portal/desktop: unknown error type:
+[2023-10-23T21:29:18.687+0000] {docker.py:403} INFO - [13:98:1023/212918.686010:ERROR:bus.cc(406)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[2023-10-23T21:29:18.688+0000] {docker.py:403} INFO - [13:98:1023/212918.686210:ERROR:bus.cc(406)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[13:98:1023/212918.686283:ERROR:bus.cc(406)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[13:98:1023/212918.686319:ERROR:bus.cc(406)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[13:98:1023/212918.686351:ERROR:bus.cc(406)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[2023-10-23T21:29:18.751+0000] {docker.py:403} INFO - [71:71:1023/212918.749615:ERROR:viz_main_impl.cc(196)] Exiting GPU process due to errors during initialization
+[2023-10-23T21:29:18.985+0000] {docker.py:403} INFO - [140:140:1023/212918.968742:ERROR:viz_main_impl.cc(196)] Exiting GPU process due to errors during initialization
+[2023-10-23T21:31:07.047+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=Extract_job_data_in_selenium_container, task_id=run_script_in_docker, execution_date=20231023T211747, start_date=20231023T212916, end_date=20231023T213107
+[2023-10-23T21:31:07.076+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-10-23T21:31:07.100+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

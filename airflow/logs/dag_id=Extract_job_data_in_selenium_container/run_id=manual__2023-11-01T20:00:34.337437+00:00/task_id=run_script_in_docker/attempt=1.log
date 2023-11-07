@@ -1,0 +1,244 @@
+[2023-11-01T20:00:36.422+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Extract_job_data_in_selenium_container.run_script_in_docker manual__2023-11-01T20:00:34.337437+00:00 [queued]>
+[2023-11-01T20:00:36.435+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Extract_job_data_in_selenium_container.run_script_in_docker manual__2023-11-01T20:00:34.337437+00:00 [queued]>
+[2023-11-01T20:00:36.435+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2023-11-01T20:00:36.456+0000] {taskinstance.py:1327} INFO - Executing <Task(DockerOperator): run_script_in_docker> on 2023-11-01 20:00:34.337437+00:00
+[2023-11-01T20:00:36.472+0000] {standard_task_runner.py:57} INFO - Started process 462 to run task
+[2023-11-01T20:00:36.479+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Extract_job_data_in_selenium_container', 'run_script_in_docker', 'manual__2023-11-01T20:00:34.337437+00:00', '--job-id', '40', '--raw', '--subdir', 'DAGS_FOLDER/extract_job_data_dag.py', '--cfg-path', '/tmp/tmpjsdn0d1o']
+[2023-11-01T20:00:36.481+0000] {standard_task_runner.py:85} INFO - Job 40: Subtask run_script_in_docker
+[2023-11-01T20:00:36.544+0000] {task_command.py:410} INFO - Running <TaskInstance: Extract_job_data_in_selenium_container.run_script_in_docker manual__2023-11-01T20:00:34.337437+00:00 [running]> on host 8443c9c4112a
+[2023-11-01T20:00:36.686+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Extract_job_data_in_selenium_container' AIRFLOW_CTX_TASK_ID='run_script_in_docker' AIRFLOW_CTX_EXECUTION_DATE='2023-11-01T20:00:34.337437+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-01T20:00:34.337437+00:00'
+[2023-11-01T20:00:36.741+0000] {docker.py:334} INFO - Starting docker container from image webscrape-container
+[2023-11-01T20:00:36.792+0000] {docker.py:343} WARNING - Using remote engine or docker-in-docker and mounting temporary volume from host is not supported. Falling back to `mount_tmp_dir=False` mode. You can set `mount_tmp_dir` parameter to False to disable mounting and remove the warning
+[2023-11-01T20:00:41.176+0000] {docker.py:403} INFO - [13:58:1101/200041.169520:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[2023-11-01T20:00:42.481+0000] {docker.py:403} INFO - [13:61:1101/200042.480271:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[13:61:1101/200042.480315:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[2023-11-01T20:00:42.547+0000] {docker.py:403} INFO - [13:58:1101/200042.546161:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[2023-11-01T20:00:42.551+0000] {docker.py:403} INFO - [13:58:1101/200042.551092:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[13:58:1101/200042.551136:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[13:58:1101/200042.551148:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[2023-11-01T20:00:42.840+0000] {docker.py:403} INFO - [13:58:1101/200042.838343:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[13:58:1101/200042.838809:ERROR:bus.cc(407)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[2023-11-01T20:00:43.244+0000] {docker.py:403} INFO - DevTools listening on ws://127.0.0.1:4444/devtools/browser/0f040788-8f83-4dba-8947-257450a4ba91
+[2023-11-01T20:00:43.557+0000] {docker.py:403} INFO - [13:110:1101/200043.552982:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[2023-11-01T20:00:43.562+0000] {docker.py:403} INFO - [13:110:1101/200043.553846:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[13:110:1101/200043.553920:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[2023-11-01T20:00:43.563+0000] {docker.py:403} INFO - [13:110:1101/200043.553951:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[13:110:1101/200043.553982:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[2023-11-01T20:00:43.639+0000] {docker.py:403} INFO - [68:68:1101/200043.638800:ERROR:viz_main_impl.cc(196)] Exiting GPU process due to errors during initialization
+[2023-11-01T20:00:44.111+0000] {docker.py:403} INFO - [132:132:1101/200044.110002:ERROR:viz_main_impl.cc(196)] Exiting GPU process due to errors during initialization
+[2023-11-01T20:00:45.316+0000] {docker.py:403} INFO - Exception managing chrome: error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json): error trying to connect: dns error: failed to lookup address information: Try again
+[2023-11-01T20:01:31.291+0000] {docker.py:403} INFO - initialising bot
+opening chrome (Linux)
+open chrome
+worked
+https://www.google.com/search?q=Machine+Learning+Engineer+jobs&ibp=htl;jobs#htivrt=jobs
+Number of listings: 10
+Job ID: 0u7pvAKRrRMGt6j1AAAAAA==
+Company: Sonara
+Remoto São Paulo, SP
+Saving Machine Learning Engineer job
+CSV file created.
+Job ID: EvEdhZ6q7G5iyNqEAAAAAA==
+Company: Clara
+Remoto Qualquer lugar
+Saving Machine Learning Engineer job
+CSV file created.
+Job ID: P4mFEIGRZq3NV_dHAAAAAA==
+Company: Qintess
+Remoto Qualquer lugar
+Saving Machine Learning Engineer job
+CSV file created.
+Job ID: 9yjlltPbHY2RjmF5AAAAAA==
+Company: Netvagas
+Remoto Qualquer lugar
+Saving Machine Learning Engineer job
+CSV file created.
+Job ID: wBSdrwVSlbJva7znAAAAAA==
+Company: Confidencial
+Remoto São Paulo, SP
+Saving Machine Learning Engineer job
+CSV file created.
+Job ID: x-9rT0XekeeHY-PbAAAAAA==
+Company: Loft
+Remoto São Paulo, SP
+Saving Machine Learning Engineer job
+CSV file created.
+Job ID: Vej123eYZWmGAEK3AAAAAA==
+Company: Qintess
+Remoto Qualquer lugar
+Saving Machine Learning Engineer job
+CSV file created.
+Job ID: lkobpxbnbouIOHtJAAAAAA==
+Company: Confidencial
+Remoto São Paulo, SP
+Saving Machine Learning Engineer job
+CSV file created.
+Job ID: Gmd3EjzrGpKbQjkGAAAAAA==
+Company: Telnyx
+Remoto São Paulo, SP
+Saving Machine Learning Engineer job
+CSV file created.
+Job ID: nOM7B3IX0SPy0WGqAAAAAA==
+Company: Fraudio
+Remoto São Paulo, SP
+Saving Machine Learning Engineer job
+CSV file created.
+https://www.google.com/search?q=Data+Engineer+jobs&ibp=htl;jobs#htivrt=jobs
+Number of listings: 10
+Job ID: ydtyR_vyHjHkm68dAAAAAA==
+Company: GeekHunter
+Remoto São Paulo, SP
+Saving Data Engineer job
+CSV file created.
+Job ID: j3_K6N3Vgmi0uA60AAAAAA==
+Company: Confidencial
+Remoto São Paulo, SP
+Saving Data Engineer job
+CSV file created.
+Job ID: yUu8FTE9TZlwwwE6AAAAAA==
+Company: Mars
+Remoto São Paulo, SP
+Saving Data Engineer job
+CSV file created.
+Job ID: JN45GiN82WTFPalAAAAAAA==
+Company: Creditas
+Remoto São Paulo, SP
+Saving Data Engineer job
+CSV file created.
+Job ID: lwz0_azkuNV7hqpGAAAAAA==
+Company: Confidencial
+Remoto São Paulo, SP
+Saving Data Engineer job
+CSV file created.
+Job ID: f2LgHE5y-xDsXmlmAAAAAA==
+Company: Nubank
+Remoto São Paulo, SP
+Saving Data Engineer job
+CSV file created.
+Job ID: 4IYNFOfMhUMNDhJYAAAAAA==
+Company: Mastercard
+Remoto São Paulo, SP
+Saving Data Engineer job
+CSV file created.
+Job ID: QRd9qOysIWzGI5TCAAAAAA==
+Company: PAGALEVE
+Remoto São Paulo, SP
+Saving Data Engineer job
+CSV file created.
+Job ID: -z9zHmajezhBcJDlAAAAAA==
+Company: Mercado Livre
+Remoto São Paulo, SP
+Saving Data Engineer job
+CSV file created.
+Job ID: Q0DHvl9sMixC0a3xAAAAAA==
+Company: Turing
+Remoto São Paulo, SP
+Saving Data Engineer job
+CSV file created.
+https://www.google.com/search?q=Data+Analyst+jobs&ibp=htl;jobs#htivrt=jobs
+Number of listings: 10
+Job ID: YB_cd5pJpDXGD4FoAAAAAA==
+Company: Agoda
+Remoto São Paulo, SP
+Saving Data Analyst job
+CSV file created.
+Job ID: 6tl7nurMaz558kUDAAAAAA==
+Company: HR Soul
+Remoto São Paulo, SP
+Saving Data Analyst job
+CSV file created.
+Job ID: f_Pe4fExMqES1K4ZAAAAAA==
+Company: Confidencial
+Remoto São Paulo, SP
+Saving Data Analyst job
+CSV file created.
+Job ID: iG1QwfO2kytcKnqpAAAAAA==
+Company: EMPREGARA
+Remoto Santos, SP
+Saving Data Analyst job
+CSV file created.
+Job ID: OSpq_pM8obIybiblAAAAAA==
+Company: Talentos AlmapBBDO
+Remoto São Paulo, SP
+Saving Data Analyst job
+CSV file created.
+Job ID: jUtI3laJbMPHPuDcAAAAAA==
+Company: Incognia
+Remoto São Paulo, SP
+Saving Data Analyst job
+CSV file created.
+Job ID: vHW01cr1zaO4K-qjAAAAAA==
+Company: Cognizant Technology Solutions
+Remoto São Paulo, SP
+Saving Data Analyst job
+CSV file created.
+Job ID: kChGRz-F2bqg2Qm0AAAAAA==
+Company: DPDHL
+Remoto Guarulhos, SP
+Saving Data Analyst job
+CSV file created.
+Job ID: XcLC1C1bKke_1T-rAAAAAA==
+Company: Agoda
+Remoto São Paulo, SP
+Saving Data Analyst job
+CSV file created.
+Job ID: 1xmINgQojeh9VP_7AAAAAA==
+Company: TECH MAHINDRA
+Remoto São Paulo, SP
+Saving Data Analyst job
+CSV file created.
+https://www.google.com/search?q=Data+Scientist+jobs&ibp=htl;jobs#htivrt=jobs
+Number of listings: 10
+Job ID: St4JggB7R1UyvahHAAAAAA==
+Company: XP Inc.
+Remoto São Paulo, SP
+Saving Data Scientist job
+CSV file created.
+Job ID: J4XYhga74F9tD-bUAAAAAA==
+Company: Unilever
+Remoto São Paulo, SP
+Saving Data Scientist job
+CSV file created.
+Job ID: 7dZ1wjj25ZAJBSK8AAAAAA==
+Company: Confidencial
+Remoto São Paulo, SP
+Saving Data Scientist job
+CSV file created.
+Job ID: S8V6ZNREKs_D27CNAAAAAA==
+Company: Bradesco
+Remoto Osasco, SP
+Saving Data Scientist job
+CSV file created.
+Job ID: vi0-OOM5MurcnjX1AAAAAA==
+Company: EMPREGARA
+Remoto Santo André, SP
+Saving Data Scientist job
+CSV file created.
+Job ID: M_oTh_ley47D4XJLAAAAAA==
+Company: Token Metrics
+Remoto Qualquer lugar
+Saving Data Scientist job
+CSV file created.
+Job ID: HUX_UPwmJZfAZ12DAAAAAA==
+Company: Confidencial
+Remoto São Paulo, SP
+Saving Data Scientist job
+CSV file created.
+Job ID: cCTDHZoAtTYNfBL3AAAAAA==
+Company: EMPREGARA
+Remoto São Paulo, SP
+Saving Data Scientist job
+CSV file created.
+Job ID: mbL_dGlWAkN9r7DvAAAAAA==
+Company: XP Inc.
+Remoto Qualquer lugar
+Saving Data Scientist job
+CSV file created.
+Job ID: ucvrk2rzMnKZ3y2jAAAAAA==
+Company: McKinsey & Company
+Remoto São Paulo, SP
+Saving Data Scientist job
+CSV file created.
+[2023-11-01T20:01:31.856+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=Extract_job_data_in_selenium_container, task_id=run_script_in_docker, execution_date=20231101T200034, start_date=20231101T200036, end_date=20231101T200131
+[2023-11-01T20:01:31.917+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-11-01T20:01:31.985+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
