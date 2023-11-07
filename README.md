@@ -169,7 +169,7 @@ You  can test the webscraper bot  without setting the pipeline. For this:
 ```
 Here is a demonstration of the webscraper running with graphical interface:
 
-https://github.com/bccestari/JobDataPipeline/assets/136031922/9deb1fc5-c5fe-426b-b271-4a1f6c9a4833
+https://github.com/bccestari/JobDataPipeline/assets/136031922/1b05bb24-b8a0-47bd-ae1f-fd2919516082
 
 
 The webscraper is and adaptation of the code provided by the [AiCore channel](https://www.youtube.com/@AiCore). I would like to express my gratitude to them as well
