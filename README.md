@@ -55,3 +55,6 @@ The framework for this project is heavily based on [ABZ-Aaron's Reddit-API-Pipel
 ##Visualization
 
 The final output is a Power BI dashboard:
+
+<img src = "https://github.com/bccestari/JobDataPipeline/blob/main/images/dashboard.png" width = 80% height = 80%>
+
