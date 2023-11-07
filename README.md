@@ -176,7 +176,7 @@ The webscraper is and adaptation of the code provided by the [AiCore channel](ht
 
 **Feature Engineering**
 
-The requirements (tools and skills) are extracted it the folllowing process:
+The requirements (tools and skills) are extracted with the folllowing process:
 
 - Extract job's description
 - Extract from the description the tools need using the tools.txt generated py the two scripts inside /toolsgpt/:
