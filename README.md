@@ -41,7 +41,7 @@ The collected information includes:
 The framework for this project is heavily based on [ABZ-Aaron's Reddit-API-Pipeline](https://github.com/ABZ-Aaron/Reddit-API-Pipeline) repository. I'm grateful for his work and it was the best resource I came across to start interacting with data engineering tools.
 
 ## Architeture
-<img src = "https://github.com/bccestari/JobDataPipeline/blob/main/images/Diagram.png" width = 100% height = 100%>
+<img src = "https://github.com/bccestari/JobDataPipeline/blob/main/images/Diagram.png" width = 75% height = 75%>
 
 1. The data pipeline is orchestrated with **Airflow** running in **Docker**.
 2. A **web scraper** is deployed within a **Selenium standalone container** to extract data in **.csv** format. 
